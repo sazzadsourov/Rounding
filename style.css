@@ -1,0 +1,71 @@
+ body{
+ 	margin: 0;
+ }
+
+.main{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.one,.two,.three,.four,.five{
+	border-radius: 50%;
+}
+
+.one:hover{
+	transform: rotate(12000deg);
+	
+}
+
+
+.one{
+	width: 150px;
+	height: 150px;
+	background: red;
+/* 	margin: 0 auto;
+margin-top: 20%; */
+	position: relative;
+	transition: 10s;
+}
+
+.two{
+	width: 100px;
+    height: 100px;
+    background: black;
+    position: absolute;
+    right: 100%;
+    bottom: 100%;
+}
+
+
+.three{
+	width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+}
+
+.four{
+	width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    left: 100%;
+    bottom: 100%;
+}
+
+
+.five{
+	width: 100px;
+    height: 100px;
+    background: #76297b;
+    position: absolute;
+    right: 100%;
+    top: 100%;
+}
+
+
